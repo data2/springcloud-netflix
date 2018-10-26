@@ -17,10 +17,9 @@
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <modules>
-
         <module>springcloud-eureka-provider</module>
         <module>springcloud-eureka-server</module>
-
+        <module>springcloud-eureka-consumer-ribbon</module>
     </modules>
 
     <dependencies>
