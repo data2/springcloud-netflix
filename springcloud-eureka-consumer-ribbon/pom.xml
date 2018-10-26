@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.musteer</groupId>
-    <artifactId>springcloud-eureka-consumer</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>springcloud-eureka-consumer-ribbon</artifactId>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>springcloud-eureka-consumer</name>
+    <name>springcloud-eureka-consumer-ribbon</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>

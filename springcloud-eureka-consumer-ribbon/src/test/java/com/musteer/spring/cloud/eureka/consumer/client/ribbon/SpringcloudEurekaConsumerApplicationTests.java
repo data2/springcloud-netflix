@@ -1,4 +1,4 @@
-package com.musteer.spring.cloud.eureka.consumer;
+package com.musteer.spring.cloud.eureka.consumer.client.ribbon;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.musteer.spring.cloud.eureka.consumer;
+package com.musteer.spring.cloud.eureka.consumer.client.ribbon;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -14,17 +14,16 @@ import java.io.IOException;
 @SpringBootApplication
 @EnableDiscoveryClient
 public class SpringcloudEurekaConsumerApplication {
-    // ribbon需要配置，负载均衡
     @Autowired
     private RestTemplateBuilder builder;
 
-    // ribbon需要配置，负载均衡
+    //ribbon需要配置，负载均衡
+    //注入restTemplate @LoadBalanced注解表明这个restRemplate开启负载均衡的功能
     @Bean
     @LoadBalanced
     public RestTemplate restTemplate() {
         return builder.build();
     }
-
 
     public static void main(String[] args) throws IOException {
         SpringApplication.run(SpringcloudEurekaConsumerApplication.class, args);
