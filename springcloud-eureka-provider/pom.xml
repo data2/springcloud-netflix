@@ -13,7 +13,7 @@
 
     <parent>
         <groupId>com.muskteer</groupId>
-        <artifactId>muskteer-springcloud-eureka</artifactId>
+        <artifactId>springcloud-eureka</artifactId>
         <version>1.0.0</version>
     </parent>
 

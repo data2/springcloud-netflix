@@ -13,13 +13,14 @@
     </parent>
 
     <groupId>com.muskteer</groupId>
-    <artifactId>muskteer-springcloud-eureka</artifactId>
+    <artifactId>springcloud-eureka</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <modules>
         <module>springcloud-eureka-provider</module>
         <module>springcloud-eureka-server</module>
         <module>springcloud-eureka-consumer-ribbon</module>
+        <module>springcloud-eureka-consumer-feign</module>
     </modules>
 
     <dependencies>
