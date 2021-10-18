@@ -2,20 +2,49 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud-eureka-consumer-ribbon" />
-        <module name="springcloud-eureka-provider" />
+        <module name="springcloud-order-provider" />
+        <module name="springcloud-pay-api" />
+        <module name="springcloud-pay-provider" />
         <module name="springcloud-eureka-server" />
+        <module name="springcloud-order-provider2" />
+        <module name="springcloud-eureka-consumer-ribbon" />
+        <module name="springcloud-eureka-consumer-feign" />
+        <module name="springcloud-pay-provider2" />
+        <module name="springcloud-eureka-provider" />
+        <module name="springcloud-order-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="muskteer-springcloud-eureka" target="1.8" />
+      <module name="springcloud-eureka-consumer-feign" target="1.8" />
       <module name="springcloud-eureka-consumer-ribbon" target="1.8" />
       <module name="springcloud-eureka-provider" target="1.8" />
       <module name="springcloud-eureka-server" target="1.8" />
+      <module name="springcloud-netflix" target="1.8" />
+      <module name="springcloud-order-api" target="8" />
+      <module name="springcloud-order-provider" target="1.8" />
+      <module name="springcloud-order-provider2" target="1.8" />
+      <module name="springcloud-pay-api" target="8" />
+      <module name="springcloud-pay-provider" target="1.8" />
+      <module name="springcloud-pay-provider2" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-eureka-consumer-feign" options="-parameters" />
+      <module name="springcloud-eureka-consumer-ribbon" options="-parameters" />
+      <module name="springcloud-eureka-server" options="-parameters" />
+      <module name="springcloud-order-api" options="-parameters" />
+      <module name="springcloud-order-provider" options="-parameters" />
+      <module name="springcloud-order-provider2" options="-parameters" />
+      <module name="springcloud-pay-api" options="-parameters" />
+      <module name="springcloud-pay-provider" options="-parameters" />
+      <module name="springcloud-pay-provider2" options="-parameters" />
+    </option>
   </component>
 </project>

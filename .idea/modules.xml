@@ -3,9 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/muskteer-springcloud-eureka.iml" filepath="$PROJECT_DIR$/muskteer-springcloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-consumer-feign/springcloud-eureka-consumer-feign.iml" filepath="$PROJECT_DIR$/springcloud-eureka-consumer-feign/springcloud-eureka-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-consumer-ribbon/springcloud-eureka-consumer-ribbon.iml" filepath="$PROJECT_DIR$/springcloud-eureka-consumer-ribbon/springcloud-eureka-consumer-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-provider/springcloud-eureka-provider.iml" filepath="$PROJECT_DIR$/springcloud-eureka-provider/springcloud-eureka-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-netflix.iml" filepath="$PROJECT_DIR$/springcloud-netflix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-order-api/springcloud-order-api.iml" filepath="$PROJECT_DIR$/springcloud-order-api/springcloud-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-order-provider/springcloud-order-provider.iml" filepath="$PROJECT_DIR$/springcloud-order-provider/springcloud-order-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-order-provider2/springcloud-order-provider2.iml" filepath="$PROJECT_DIR$/springcloud-order-provider2/springcloud-order-provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-pay-api/springcloud-pay-api.iml" filepath="$PROJECT_DIR$/springcloud-pay-api/springcloud-pay-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-pay-provider/springcloud-pay-provider.iml" filepath="$PROJECT_DIR$/springcloud-pay-provider/springcloud-pay-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-pay-provider2/springcloud-pay-provider2.iml" filepath="$PROJECT_DIR$/springcloud-pay-provider2/springcloud-pay-provider2.iml" />
     </modules>
   </component>
 </project>
