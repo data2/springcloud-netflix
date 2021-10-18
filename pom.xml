@@ -12,15 +12,20 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.muskteer</groupId>
+    <groupId>com.data2</groupId>
     <artifactId>springcloud-eureka</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <modules>
-        <module>springcloud-eureka-provider</module>
         <module>springcloud-eureka-server</module>
         <module>springcloud-eureka-consumer-ribbon</module>
         <module>springcloud-eureka-consumer-feign</module>
+        <module>springcloud-pay-api</module>
+        <module>springcloud-pay-provider</module>
+        <module>springcloud-order-provider</module>
+        <module>springcloud-order-api</module>
+        <module>springcloud-pay-provider2</module>
+        <module>springcloud-order-provider2</module>
     </modules>
 
     <dependencies>
@@ -32,6 +37,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

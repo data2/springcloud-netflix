@@ -1,0 +1,9 @@
+/.idea/
+/springcloud-eureka-consumer-feign/.mvn/
+/springcloud-eureka-consumer-feign/.mvn/
+/springcloud-eureka-server/.mvn/
+/.idea/
+.idea/modules.xml
+.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_2_RELEASE.xml
+.idea/encodings.xml
+.idea/compiler.xml
