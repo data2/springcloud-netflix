@@ -25,6 +25,7 @@
         <module>springcloud-order-api</module>
         <module>springcloud-pay-provider2</module>
         <module>springcloud-order-provider2</module>
+        <module>springcloud-gateway</module>
     </modules>
 
     <dependencies>
