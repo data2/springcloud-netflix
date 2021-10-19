@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: consumer-service
+          uri: lb://consumer-service
+          predicates:
+            - Path=/consumer/**
+        - id: order-service
+          uri: lb://order-provider
+          predicates:
+            - Path=/order/**
+        - id: pay-service
+          uri: lb://pay-provider
+          predicates:
+            - Path=/pay/**
+      discovery:
+        locator:
+          enabled: true
+server:
+  port: 9090
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9091/eureka/
+
+
