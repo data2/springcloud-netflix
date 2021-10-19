@@ -5,6 +5,7 @@ import com.data2.springcloud.api.order.OrderResp;
 import com.data2.springcloud.api.pay.PayReq;
 import com.data2.springcloud.api.pay.PayResp;
 import com.muskteer.spring.cloud.eureka.consumer.feign.service.hystrix.OrderFallBack;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
